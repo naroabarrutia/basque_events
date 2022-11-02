@@ -12,7 +12,7 @@ setup(
   author = 'Mikel Madariaga & Naroa Barrutia',                   # Type in your name
   author_email = 'naroa.barrutia@alumni.mondragon.edu',      # Type in your E-Mail
   url = 'https://github.com/naroabarrutia/basque_events',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/naroabarrutia/eventos_euskadi/archive/refs/tags/v_1.2.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/naroabarrutia/basque_events/archive/refs/tags/v_1.1.tar.gz',    # I explain this later on
   keywords = ['Events', 'Basque', 'Opendata'],   # Keywords that define your package best
   long_description=long_description,
   long_description_content_type="text/markdown",

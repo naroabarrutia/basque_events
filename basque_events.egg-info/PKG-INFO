@@ -1,3 +1,25 @@
+Metadata-Version: 2.1
+Name: basque-events
+Version: 1.1
+Summary: Package for interpretation of Event data in Euskadi
+Home-page: https://github.com/naroabarrutia/basque_events
+Author: Mikel Madariaga & Naroa Barrutia
+Author-email: naroa.barrutia@alumni.mondragon.edu
+License: MIT
+Download-URL: https://github.com/naroabarrutia/basque_events/archive/refs/tags/v_1.1.tar.gz
+Keywords: Events,Basque,Opendata
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
 # Event data from the Basque Country
 
 This package has been developed using event data from the Open Data Euskadi api. Several functions have been created to facilitate users the interpretation of the data. The following variables have been used: 
@@ -22,7 +44,7 @@ This package has been developed using event data from the Open Data Euskadi api.
 ## File structure
 ```sh
 examples 
-    datos_año.JPG
+    datos_aÃ±o.JPG
 ```
 
 ```sh
@@ -51,18 +73,6 @@ setup.py
 - [Matplotlib] - Graph creation.
 - [Request] - Obtain requested data from the api.
 - [Seaborn] - Easy to use data visualization.
-
-## Installation
-```python
-pip install basque_events
-
-```
-
-## Update package 
-```python
-pip install basque_events
-
-```
 
 ## Use case
 ```python
@@ -93,3 +103,4 @@ be.year_data(2021, True)
 [Request]: <https://pypi.org/project/requests/>
 [Seaborn]: <https://seaborn.pydata.org/>
 [MIT]: <https://choosealicense.com/licenses/mit/>
+
