@@ -58,12 +58,6 @@ pip install basque_events
 
 ```
 
-## Update package 
-```python
-pip install basque_events
-
-```
-
 ## Use case
 ```python
 import basque_events as be
