@@ -46,7 +46,7 @@ setup.cfg
 ```sh
 setup.py
 ```
-## Dependencias 
+## Dependencies
 - [Pandas] - Tools for manipulating different data types.
 - [Matplotlib] - Graph creation.
 - [Request] - Obtain requested data from the api.
@@ -60,10 +60,10 @@ import basque_events as be
 be.events_info(2021, 1, 'eus')
 
 # Download data from 2021/05 in csv format
-ev.download(2021, 5, 'es', 'csv')
+be.download(2021, 5, 'es', 'csv')
 
 # Display two barplots with event data from 2021 
-ev.year_data(2021, True)
+be.year_data(2021, True)
 ```
 
 ![Alt text](https://github.com/naroabarrutia/basque_events/blob/main/examples/datos_año.JPG?raw=true)
